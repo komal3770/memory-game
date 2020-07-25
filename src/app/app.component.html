@@ -1,0 +1,7 @@
+<div id="div1" *ngFor="let imarr of imgSrcArr">
+  <div *ngFor="let im of imarr;let i = index" class="divCls" (click) = "clickDiv(im)" [ngClass] = "{'divBgWhite': !im.isHidden}">
+    <img src="/assets/images/{{im.name}}" id="im{{i}}" [hidden] = "im.isHidden" (mouseenter)="checkEnterAllowed(im)"
+      class="{{im.name}}">
+  </div>
+</div>
+<h3>Score : {{score}}</h3>

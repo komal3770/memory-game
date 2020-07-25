@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+.divCls{
+  border: solid;
+  width: 300px;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+  height: 150px;
+  background-color: black;
+}
+img{
+  height: 145px;
+  /*display: none;*/
+}
+.divBgWhite{
+  background-color: white;
+}
